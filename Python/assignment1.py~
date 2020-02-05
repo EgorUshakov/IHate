@@ -1,0 +1,30 @@
+from SimpleGraphics import *
+
+#Deep sky blue background
+background("deep sky blue")
+
+
+#Head of the Smiley Face 
+setColor("yellow")
+ellipse(190, 75, 400, 450)
+
+#Eyes of the Smiley Face 
+setColor("blue")
+ellipse(440, 150, 100, 100 )
+ellipse(240, 150, 100, 100 )
+
+#Lips(made up of an ellipse)
+setColor("red")
+ellipse(300, 400, 200, 50) 
+
+#Lips(line is used to separate the upper lip and the lower lip)
+setColor("black")
+line(300, 425, 500, 425)
+
+#Go-tie(Pie Slice)
+setColor("brown")
+pieSlice(350, 450, 100, 100, 60, 60)
+
+#Nose(pie slice)
+setColor("brown")
+pieSlice(315, 240, 100, 100, 330, 60)
